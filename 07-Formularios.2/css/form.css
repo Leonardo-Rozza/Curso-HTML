@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+
+* {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #161717;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 450px;
+}
+
+.buttons {
+  align-self: flex-start;
+  display: flex;
+  gap: 20px;
+}
+
+.google-btn {
+  background-color: #1b72e8;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  height: 40px;
+  cursor: pointer;
+}
+.google-btn:hover {
+  opacity: 0.75;
+}
+
+.google-btn span {
+  color: white;
+  font-weight: 500;
+  padding: 15px;
+}
+
+.google-btn picture {
+  height: 35px;
+  width: 35px;
+  background-color: #8b8b8b;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-btn picture img {
+  width: 75%;
+}
+
+.twiteer-btn {
+  color: #bbb;
+  background-color: #eee;
+  border: none;
+  border-radius: 2px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.twiteer-btn:hover {
+  background-color: #ddd;
+}
+
+.separator {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+}
+
+.separator hr {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.separator span {
+  color: #8b8b8b;
+}
+
+.section-inputs {
+  display: flex;
+  width: 100%;
+  gap: 100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 20px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label span {
+  font-weight: 700;
+  width: 100%;
+}
+
+label input {
+  width: 100%;
+  background-color: #f3f3f4;
+  background-color: #212121;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1.5rem;
+  transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+}
+
+label input:hover {
+  background-color: #fff;
+  background-color: #454045;
+  border: 1px solid #f3f3f4;
+  box-shadow: 0 0 4px rgba(239, 22, 235, 0.151);
+}
+
+label input:focus {
+  background-color: #fff;
+  border: 1px solid #f3f3f4;
+  box-shadow: 0 0 4px rgba(239, 22, 235, 0.151);
+}
+
+.checbox-label {
+  display: flex;
+  flex-direction: row;
+}
+
+.checbox-label input[type="checkbox"] {
+  width: 20px;
+}
+
+.checbox-label span {
+  font-weight: 400;
+}
+
+.submit-btn {
+  background-color: #ea4689;
+  color: white;
+  font-weight: 500;
+  font-size: 14pt;
+  text-align: center;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  opacity: 0.75;
+}
